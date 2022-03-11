@@ -2,7 +2,7 @@ const fetch = require("node-fetch");
 const querystring = require("querystring");
 const stringify = require("../utils/stringify.js");
 
-const GOOGLEAPIS_ORIGIN = "https://gracious-bhabha-d8b7ee.netlify.app";
+const GOOGLEAPIS_ORIGIN = 'https://www.googleapis.com';
 const headers = {
   "Access-Control-Allow-Origin": process.env.HOST,
   "Content-Type": "application/json; charset=utf-8",
